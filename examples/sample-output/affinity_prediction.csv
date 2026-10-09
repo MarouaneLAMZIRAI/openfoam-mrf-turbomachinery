@@ -1,0 +1,2 @@
+status,rpm,speed_ratio,flow_rate_m3_s,pressure_rise_pa,torque_nm,power_w_affinity,power_w_from_torque
+illustrative_only_replace_with_cfd_or_experiment,600.0,1.0,0.05,120.0,0.4,25.1327412287,25.13274122871834

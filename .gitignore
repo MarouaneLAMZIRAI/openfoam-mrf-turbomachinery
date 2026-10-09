@@ -1,0 +1,14 @@
+.venv/
+venv/
+run/
+results/
+__pycache__/
+*.pyc
+*.OpenFOAM
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

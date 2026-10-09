@@ -1,0 +1,11 @@
+{
+  "status": "illustrative_only_replace_with_cfd_or_experiment",
+  "machine": "educational_mrf_impeller",
+  "reference_rpm": 600.0,
+  "flow_rate_m3_s": 0.05,
+  "pressure_rise_pa": 120.0,
+  "torque_nm": 0.40,
+  "power_w": 25.1327412287,
+  "density_kg_m3": 998.2,
+  "notes": "Illustrative seed values. Replace with one converged, checked CFD or experimental operating point."
+}

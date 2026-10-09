@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible setup, simulation, prediction, or visualization problem.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Please remove passwords, usernames, and private paths before attaching logs.
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: input
+    id: wsl
+    attributes:
+      label: WSL distribution and version
+      placeholder: Ubuntu 26.04, WSL 2
+    validations:
+      required: true
+  - type: input
+    id: openfoam
+    attributes:
+      label: OpenFOAM package
+      placeholder: openfoam14
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List the exact launcher or command and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Paste the smallest useful excerpt. Redact personal information.
+      render: shell
+    validations:
+      required: true

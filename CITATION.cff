@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this educational starter, please cite the software."
+title: "OpenFOAM MRF Turbomachinery Starter"
+type: software
+authors:
+  - family-names: "LAMZIRAI"
+    given-names: "Marouane"
+version: 1.0.0
+date-released: 2026-10-05
+url: "https://github.com/MarouaneLAMZIRAI/openfoam-mrf-turbomachinery"
+repository-code: "https://github.com/MarouaneLAMZIRAI/openfoam-mrf-turbomachinery"
+license: MIT
+keywords:
+  - CFD
+  - OpenFOAM
+  - MRF
+  - turbomachinery
+  - rotating machinery
+  - affinity laws

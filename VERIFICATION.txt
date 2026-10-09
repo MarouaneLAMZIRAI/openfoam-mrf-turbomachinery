@@ -1,0 +1,35 @@
+OpenFOAM MRF Turbomachinery Starter - release verification
+Date: 2026-10-05
+Version: 1.0.0
+
+Repository checks
+-----------------
+Python unit tests: PASS (9 tests)
+Python source compilation: PASS
+Bash syntax validation: PASS
+JSON syntax validation: PASS
+YAML/CITATION syntax validation: PASS
+Affinity predictor smoke test: PASS
+Credential-pattern scan: PASS
+Generated environment/case exclusion: PASS
+
+Runtime evidence
+----------------
+OpenFOAM 14 execution on Ubuntu/WSL2: PASS
+Configured speed: 600 rpm
+Final time directory: 4000
+Mesh: 78,720 hexahedral cells
+checkMesh: Mesh OK
+Reported power number: 2.85
+
+Interpretation
+--------------
+The runtime evidence confirms numerical execution of the selected official
+OpenFOAM tutorial. It does not establish mesh independence, experimental
+validation, or fitness for engineering design. See RESULTS.md.
+
+Environment note
+----------------
+The full OpenFOAM solver was not rerun in the packaging environment. The
+runtime figures above are taken from the supplied successful WSL/OpenFOAM run.
+The release audit reran all repository-level tests and syntax checks.

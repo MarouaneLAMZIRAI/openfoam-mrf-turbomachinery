@@ -1,0 +1,26 @@
+{
+  "classification": "educational_numerical_simulation_not_validated",
+  "execution_status": "completed_without_fatal_log_marker",
+  "model": "MRF_from_version_matched_official_OpenFOAM_rotating_impeller_tutorial",
+  "rpm": 600.0,
+  "latest_time_directory": "4000",
+  "generated_utc": "2026-10-05T18:44:46.632163+00:00",
+  "log_checks": {
+    "end_markers": 1,
+    "fatal_logs": [],
+    "last_reported_final_residuals": {},
+    "last_reported_power_number": 2.85,
+    "mesh": {
+      "cells": 78720,
+      "max_aspect_ratio": 7.5096416,
+      "max_non_orthogonality_deg": 24.539314,
+      "max_skewness": 0.49106299,
+      "status": "Mesh OK"
+    }
+  },
+  "limitations": [
+    "No mesh-independence study is included in the default run.",
+    "No experimental validation is claimed.",
+    "MRF does not resolve transient blade-passing interactions."
+  ]
+}
